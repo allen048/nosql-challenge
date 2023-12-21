@@ -7,4 +7,9 @@ The first Juypyter Notebook is called NoSQL_setup_starter_solution.ipynb. In thi
 The second Jupyter Notebook is called NoSQL_analysis_starter_solution.ipynb. It's an exploratory analysis to find detailed information. There are a total of 4 questions that are needed to be answered. The questions involve data about the establishments' hygiene scores, rating values, nearest locations, and the top ten local authority areas. This information will be used to dive deeper into analyzing the data. I was able to print the results for each of the analyses using the Pretty Print library and create Panda DataFrames that captured each of the results.
 
 • Module 12 Challenge Citations:
-'Title:<NoSQL_analysis_starter_solution.ipynb> 'Author:Brandon Knox 'Date:<2023> 'Code Version:<1.0> 'Availability:https://github.com/mqkhilji/sqlalchemy-challenge/blob/main/climate_starter.ipynb
+'Title:<NoSQL_analysis_starter_solution.ipynb> 'Author:Brandon Knox 'Date:<2023> 'Code Version:<1.0> 'Availability:https://github.com/allen048/nosql-challenge/blob/main/NoSQL_analysis_starter_solution.ipynb
+'Code Cited: 
+query = { 'geocode.latitude': {'$gte': latitude - degree_search, '$lte': latitude + degree_search},
+          'geocode.longitude': {'$gte': longitude - degree_search, '$lte': longitude + degree_search},
+          'RatingValue': 5
+        }
